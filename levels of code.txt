@@ -1,0 +1,30 @@
+In any field there are levels of skills.
+
+From beginners to grand masters to world champions. Understanding the difference and behavior between the levels can guide development. 
+
+# Level Zero
+
+The mark a beginner is a lack of how much they lack. Generally, a beginner isn't doubtful of their capabilities, because they do not have a reference to judge themselves.
+
+Unlike higher levels, a level zero has no way previous knowledge to judge learning resources or outcomes. Often they do have a goal, and tend to value hgighly results over fundamentals. 
+
+Teaching a level zero results in frustration. More so from a lack of common jargon and thinking patterns, than malice or a lack of potential. What a level zero needs is a list of achievable objective and an outlet to discuss discovery.
+
+# Level One (
+
+Level one engineers know enough to ask questions. At this point, they understand basics jargon, but lack the experience to thinking like an engineer.
+
+The greatest disservice to a level one is teaching them more programming languages and frame works. Instead they need to develop a method of thinking deeply.
+
+Often level ones have slightly over optimistic projects. They should not be stopped from attempting a project, because they will soon discover the limits of their design thinking.
+
+Most importantly level ones need to push established knowledge to it's limits. Building experience designing and solving problems pushes their thinking to new dimensions.
+
+# Level Two
+
+# Level Three
+
+# Level Four
+
+# Level Five
+
