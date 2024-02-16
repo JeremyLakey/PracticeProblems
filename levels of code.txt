@@ -10,17 +10,27 @@ Unlike higher levels, a level zero has no way previous knowledge to judge learni
 
 Teaching a level zero results in frustration. More so from a lack of common jargon and thinking patterns, than malice or a lack of potential. What a level zero needs is a list of achievable objective and an outlet to discuss discovery.
 
-# Level One (
+# Level One
 
 Level one engineers know enough to ask questions. At this point, they understand basics jargon, but lack the experience to thinking like an engineer.
 
-The greatest disservice to a level one is teaching them more programming languages and frame works. Instead they need to develop a method of thinking deeply.
+The greatest disservice to a level one is teaching them more programming languages and frame works. Instead they need to build problem solving and design instincts.
 
 Often level ones have slightly over optimistic projects. They should not be stopped from attempting a project, because they will soon discover the limits of their design thinking.
 
-Most importantly level ones need to push established knowledge to it's limits. Building experience designing and solving problems pushes their thinking to new dimensions.
+Most importantly level ones need to push established knowledge to it's limits. Building experience designing and solving problems pushes their thinking to new dimensions. This experience will transfer the  fundamentals to future tooling.
 
 # Level Two
+
+At this point, a programmer has rough reflexive instincts on how to solve problems, and an uptick of grandma calling for unrelated support problems. New tools map to old lessons and ideas, but learn is still slow. But now, level two's can identify meaningful capabilities and differences in programming languages.
+
+The most dramatic lessons comes from maintaining, refactoring, and building on others code. This obstacle will slow down progress and establish opinions.
+
+Level Two is wildly expanding and overwhelming. So developers will often platue and become disheartened over the long run. The paradox of two's is they learn the most but will feel like the improve least.
+
+At this point, engineers understand the high standards of the industry, but they are not be able to produce it consistently. They often barely understand the dev tools they work with.   
+
+Escaping level Two will be years in the making. But most catalyst for improvement is quality support and . Discussion and consistency help establish confidence and reject insecurities. Other lessons including basic project planning, dev tools, a handful of languages, design/coding patterns, debugging,communication,and modeling problems.
 
 # Level Three
 
