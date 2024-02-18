@@ -30,9 +30,15 @@ Level Two is wildly expanding and overwhelming. So developers will often platue 
 
 At this point, engineers understand the high standards of the industry, but they are not be able to produce it consistently. They often barely understand the dev tools they work with.   
 
-Escaping level Two will be years in the making. But most catalyst for improvement is quality support and . Discussion and consistency help establish confidence and reject insecurities. Other lessons including basic project planning, dev tools, a handful of languages, design/coding patterns, debugging,communication,and modeling problems.
+Escaping level Two will be years in the making. But most catalyst for improvement is quality support and frequent practice. Discussion and consistency help establish confidence and reject insecurities. Other lessons including basic project planning, dev tools, a handful of languages, design/coding patterns, debugging,communication,and modeling problems.
 
 # Level Three
+
+Once at level 3, engineers understand that most time is sent reading and understanding coding. They start to separate implementation details and system design. The truest sign of a three is their ability to plan projects and lead technical discussions.
+
+Threes values others feedback and boldly ask for help. But they struggle to give less obvious feedback on code reviews. Nevertheless, these engineers have plenty to succeed. 
+
+Level 3 needs to focus on gaining specialized knowledge of a field in subfield, learning tooling, and improving code reading abilities. Each of which allows for them to contribute better to others code.
 
 # Level Four
 
