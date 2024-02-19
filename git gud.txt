@@ -1,0 +1,9 @@
+Git is a great tool blessed to humanity by the maker of linux.
+
+But I feel like some concepts in git are poorly cover and not discussed correctly.
+
+So this document will be me trying to cover the most confusing aspects of git.
+
+First and fore most, identifying problems early. Learning git at first is like using a black box that is unknown able. The command "git log" and "git status" helps reveal the black box. These commands ground what is happening in git, and can be used to explain other git commands.
+
+"Git revert" does not revert to a commit. It reverts the changes in the commit. If you want to revert to the code at a certain point in the log use "git checkout <commit hash>" 
