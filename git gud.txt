@@ -6,4 +6,8 @@ So this document will be me trying to cover the most confusing aspects of git.
 
 First and fore most, identifying problems early. Learning git at first is like using a black box that is unknown able. The command "git log" and "git status" helps reveal the black box. These commands ground what is happening in git, and can be used to explain other git commands.
 
-"Git revert" does not revert to a commit. It reverts the changes in the commit. If you want to revert to the code at a certain point in the log use "git checkout <commit hash>" 
+"git revert" does not revert to a commit. It reverts the changes in the commit. If you want to revert to the code at a certain point in the log use "git checkout <commit hash>"
+
+If you want to update the branch history (and trust me, generally you rather not) to a specific commit then use "git reset <commit hash>". Resetting has two modes. Soft and hard. Soft reset brings the removed changes as unstaged changes to the select commit. Hard removes commit changes before resetting history to a commit (without bringing any deleted changes as unstaged changes).
+
+"git -f push" is used to update the branch history to the origin. Generally, this is best to be avoided. Especially if multiple users are working on the same branch. But has some practical uses I'll get into.
