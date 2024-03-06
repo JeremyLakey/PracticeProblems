@@ -6,14 +6,24 @@ So this document will be me trying to cover the most confusing aspects of git.
 
 First and fore most, identifying problems early. Learning git at first is like using a black box that is unknown able. The command "git log" and "git status" helps reveal the black box. These commands ground what is happening in git, and can be used to explain other git commands.
 
+Don't use "git add .". Instead look through the diff on a git gui and add them manually. Most code editors come with one. This will help you identify if something went wrong or was auto generated. (Unity once generated over 1000 file changes I didn't noticed before committing..... my manager wasn't happy)
+
 "git revert" does not revert to a commit. It reverts the changes in the commit. If you want to revert to the code at a certain point in the log use "git checkout <commit hash>".
 
-If you want to update the branch history (and trust me, generally you rather not) to a specific commit then use "git reset <commit hash>". Resetting has two modes. Soft and hard. Soft reset brings the removed changes as unstaged changes to the select commit. Hard removes commit changes before resetting history to a commit (without bringing any deleted changes as unstaged changes).
+If you want to update the branch history (and trust me, generally you rather not. But you will learn when to over time) to a specific commit then use "git reset <commit hash>". Resetting has two modes. Soft and hard. Soft reset brings the removed changes as unstaged changes to the select commit. Hard removes commit changes before resetting history to a commit (without bringing any deleted changes as unstaged changes).
 
-The other way to update branch history is with "git rebase -m <commit hash/branch>". Rebasing is taking a branch and connecting its commits onto another starting point. As a rule of thumb, I always include the -m flag. Which allows you decide which commits to include with the rebase. That alone has caught the majority of unintentional inclusions. Once, I even stopped from adding 50 extra commits from the m tag.
+The other way to update branch history is with "git rebase -i <commit hash/branch>". Rebasing is taking a branch and connecting its commits onto another starting point. As a rule of thumb, I always include the -m flag. Which allows you decide which commits to include with the rebase. That alone has caught the majority of unintentional inclusions. Once, I even stopped from adding 50 extra commits from the m tag.
 
 Rebasing is incredible at detecting commits already included on the branch and the commits included at the new starting point. But generally, rebasing is best for dealing with local problems, because it changes history.
 
 "git -f push" can be used to update the branch history to the origin. Generally, this is best to be avoided. Especially if multiple users are working on the same branch. A changed history messes up gits ability to resolve conflicts, generate leading to nightmares and lost work.
 
 Merging is generally done through a PR (pull request) on a hosting site. Prs are not a feature of git, but of platforms that host code repositories (like GitHub and gitbucket). You can locally merge, but most hosting sites will not let you push it unless you have permission. "git merge <branch/git hash>". How a git merge works is by making a new commit that both branches now point to. This commit resolves ordering of how commits are applied between the two branches. 
+
+Other git things that are nice, but mandatory:
+
+"git add -p <file path>" The -p is patch add.  Meaning you can sections of a file instead of the whole file of changes. This helps commits feel very focused for code reviews.
+
+"git diff <commit hash>" Shows the difference between two files. Might help debug or make sure you are getting the right commit.
+
+"git commit --amend" This adds changes to the last commit (meaning it updates the history) But this great if you mess up a commit message or just needed to add one more file.
